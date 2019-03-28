@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Movies</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="movie_poster_image">Movie Poster Image</string>
+    <string name="no_preview_available">No Preview Available</string>
+    <string name="movies">Movies</string>
+    <string name="synopsis">Synopsis</string>
+    <string name="release_date">Released</string>
+    <string name="rating">Rating</string>
+    <string name="videos">Videos</string>
+    <string name="reviews">Reviews</string>
+    <string name="no_reviews_available">No Reviews Available</string>
+    <string name="no_videos_available">No Videos Available</string>
+    <string name="favourite">Favourite</string>
+    <string name="movie_details">Movie Details</string>
+    <string name="no_movies_available">No Movies Available</string>
+
+    <string-array name="filter_array">
+        <item>Most Popular</item>
+        <item>Top Rated</item>
+        <item>Favourites</item>
+    </string-array>
+</resources>

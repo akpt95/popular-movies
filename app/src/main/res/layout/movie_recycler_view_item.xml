@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/dimen_275_dp">
+
+    <TextView
+        android:id="@+id/text_no_preview_available"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="@string/no_preview_available"
+        android:visibility="gone"/>
+
+    <ImageView
+        android:id="@+id/image_view_movie_poster"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="@dimen/dimen_5_dp"
+        android:layout_marginBottom="@dimen/dimen_15_dp"
+        android:contentDescription="@string/movie_poster_image" />
+
+</RelativeLayout>
